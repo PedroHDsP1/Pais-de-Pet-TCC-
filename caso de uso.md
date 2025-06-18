@@ -1,4 +1,4 @@
-#UC1 – Visualizar Pagina Inicial#
+#UC1 – Visualizar Pagina Inicial
 
 Objetivo: Permitir que o cliente veja as ofertas e acesse agendamentos.
 Atores: Cliente, Visitante
