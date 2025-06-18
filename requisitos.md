@@ -49,8 +49,13 @@ não funcionais
 Não funcional;
 
 -ser responsivo, funcionar bem em celular, pc e tablet 
+
 -ser rápido
+
 -ser seguro, protegendo os dados dos usuário e o pagamento
+
 -ser de fácil acesso, tendo botões e textos visíveis e objetivos
+
 -ser atualizado, tendo informações recentes dos produtos e das notícias
+
 -ser bonito e organizado
