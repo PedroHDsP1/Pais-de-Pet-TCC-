@@ -5,7 +5,7 @@ Atores: Cliente, Visitante
 
 Pré-condições: Acesso ao site
 
-##F luxo Principal
+## Fluxo Principal
 
 Sistema mostra opções de compra.
 Destaque das promoções.
@@ -38,7 +38,7 @@ Sistema confirma agendamento por e-mail ou WhatsApp.
 Dados inválidos:
 Mostrar mensagem de erro.
 
-#UC4 – Fazer Compras Online
+# UC4 – Fazer Compras Online
 
 Objetivo: Permitir que o cliente compre produtos e realize pagamento.
 Atores: Cliente
