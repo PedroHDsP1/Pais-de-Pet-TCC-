@@ -5,35 +5,35 @@ Atores: Cliente, Visitante
 
 Pré-condições: Acesso ao site
 
-##Fluxo Principal
+##F luxo Principal
 
 Sistema mostra opções de compra.
 Destaque das promoções.
 Exibição dos botões para agendamento (banho e tosa, consulta).
 
-#UC2 – Ver Serviços
+# UC2 – Ver Serviços
 
 Objetivo: Mostrar serviços com descrição e botões de agendamento.
 Atores: Cliente, Visitante
 
-##Fluxo Principal:
+## Fluxo Principal:
 
 Sistema lista os serviços (banho e tosa, vacina, brinquedos etc).
 Exibe catálogo de produtos relacionados.
 Mostra botão para agendar atendimento.
 
-#UC3 – Agendar Atendimento
+# UC3 – Agendar Atendimento
 
 Objetivo: Permitir que o cliente agende banho, tosa ou consultas.
 Atores: Cliente
 Pré-condições: Cliente informado no formulário.
 
-##Fluxo Principal:
+## Fluxo Principal:
 
 Cliente preenche nome, telefone, tipo de pet, serviço, data e hora.
 Sistema confirma agendamento por e-mail ou WhatsApp.
 
-##Fluxo Alternativo:
+## Fluxo Alternativo:
 
 Dados inválidos:
 Mostrar mensagem de erro.
@@ -43,7 +43,7 @@ Mostrar mensagem de erro.
 Objetivo: Permitir que o cliente compre produtos e realize pagamento.
 Atores: Cliente
 
-##Fluxo Principal:
+## Fluxo Principal:
 
 Cliente adiciona produtos ao carrinho.
 Informa dados de entrega (CEP, bairro e número).
@@ -51,12 +51,12 @@ Escolhe forma de pagamento (Pix, cartão ou boleto).
 Finaliza a compra.
 
 
-#UC5 – Login e Cadastro
+# UC5 – Login e Cadastro
 
 Objetivo: Permitir que o cliente se cadastre ou faça login.
 Atores: Cliente
 
-##Fluxo Principal:
+## Fluxo Principal:
 
 Sistema exibe formulario de login e cadastro contendo:
 
@@ -78,33 +78,33 @@ Login:
 Cliente adiciona dados e confirma.
 Sistema redireciona a area do cliente.
 
-#UC6 – Acessar Area do Cliente
+# UC6 – Acessar Area do Cliente
 
 Objetivo: Ver pedidos e agendamentos.
 Atores: Cliente
 Pré-condição: Estar logado.
 
-##Fluxo Principal:
+## Fluxo Principal:
 
 Sistema exibe favoritos, histórico de compras e agendamentos.
 
-#UC7 – Acessar Blog
+# UC7 – Acessar Blog
 
 Objetivo: Permitir leitura de conteudos sobre cuidados.
 Atores: Cliente, Visitante
 
-##Fluxo Principal:
+##F luxo Principal:
 
 Sistema lista postagens com dicas e curiosidades
 Cliente seleciona e visualiza conteudo.
 
-#UC8 – Área Administrativa
+# UC8 – Área Administrativa
 
 Objetivo: Gerenciar conteudo e agendamentos.
 Atores: Administrador
 Pré-condição: Login administrativo
 
-##Fluxo Principal:
+## Fluxo Principal:
 
 Cadastrar, editar ou excluir
 Produtos
