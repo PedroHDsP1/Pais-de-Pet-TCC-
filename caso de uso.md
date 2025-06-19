@@ -1,62 +1,74 @@
-#UC1 – Visualizar Pagina Inicial
+# UC1 – Visualizar Pagina Inicial
 
 Objetivo: Permitir que o cliente veja as ofertas e acesse agendamentos.
+
 Atores: Cliente, Visitante
 
 Pré-condições: Acesso ao site
 
-##Fluxo Principal
+## Fluxo Principal
 
-Sistema mostra opções de compra.
-Destaque das promoções.
-Exibição dos botões para agendamento (banho e tosa, consulta).
+o sistema carrega a index com uma menu para navegar pelo site
 
-#UC2 – Ver Serviços
+o sistema mostra promoções de produtos da loja
+
+o sistema exibe botões para fazer agendamentos(banho, tosa e consulta)
+
+o sistema mostra ícone do carrinho de compras
+
+# UC2 – Ver Serviços
 
 Objetivo: Mostrar serviços com descrição e botões de agendamento.
+
 Atores: Cliente, Visitante
 
-##Fluxo Principal:
+## Fluxo Principal:
 
-Sistema lista os serviços (banho e tosa, vacina, brinquedos etc).
-Exibe catálogo de produtos relacionados.
-Mostra botão para agendar atendimento.
+O sistema mostra menu de serviços de banho, toda, vacina, brinquedos
 
-#UC3 – Agendar Atendimento
+O sistema mostra o serviço escolhido
+
+O sistema exibe catálogo do serviço escolhido 
+
+O sistema mostra botão de aducionar ao carrinho e botão de compra/agendamento
+
+# UC3 – Agendar Atendimento
 
 Objetivo: Permitir que o cliente agende banho, tosa ou consultas.
 Atores: Cliente
-Pré-condições: Cliente informado no formulário.
 
-##Fluxo Principal:
+Pré-condições: Cliente ter um login 
 
-Cliente preenche nome, telefone, tipo de pet, serviço, data e hora.
+## Fluxo Principal:
+
+O sistema mostra um formulário contendo:
+
+1.Nome
+2.Telefone
+3.Tipo de pet
+4.Servico(Banho e tosa ou Consulta)
+5.Data e hora
+com um botão escrito "Confirmar" e retorna para o index
+
 Sistema confirma agendamento por e-mail ou WhatsApp.
 
-##Fluxo Alternativo:
-
-Dados inválidos:
-Mostrar mensagem de erro.
-
-#UC4 – Fazer Compras Online
+# UC4 – Fazer Compras Online
 
 Objetivo: Permitir que o cliente compre produtos e realize pagamento.
 Atores: Cliente
 
-##Fluxo Principal:
+## Fluxo Principal:
 
-Cliente adiciona produtos ao carrinho.
-Informa dados de entrega (CEP, bairro e número).
-Escolhe forma de pagamento (Pix, cartão ou boleto).
-Finaliza a compra.
+Sistema mostra o  
 
 
-#UC5 – Login e Cadastro
+
+# UC5 – Login e Cadastro
 
 Objetivo: Permitir que o cliente se cadastre ou faça login.
 Atores: Cliente
 
-##Fluxo Principal:
+## Fluxo Principal:
 
 Sistema exibe formulario de login e cadastro contendo:
 
@@ -78,33 +90,33 @@ Login:
 Cliente adiciona dados e confirma.
 Sistema redireciona a area do cliente.
 
-#UC6 – Acessar Area do Cliente
+# UC6 – Acessar Area do Cliente
 
 Objetivo: Ver pedidos e agendamentos.
 Atores: Cliente
 Pré-condição: Estar logado.
 
-##Fluxo Principal:
+## Fluxo Principal:
 
 Sistema exibe favoritos, histórico de compras e agendamentos.
 
-#UC7 – Acessar Blog
+# UC7 – Acessar Blog
 
 Objetivo: Permitir leitura de conteudos sobre cuidados.
 Atores: Cliente, Visitante
 
-##Fluxo Principal:
+##F luxo Principal:
 
 Sistema lista postagens com dicas e curiosidades
 Cliente seleciona e visualiza conteudo.
 
-#UC8 – Área Administrativa
+# UC8 – Área Administrativa
 
 Objetivo: Gerenciar conteudo e agendamentos.
 Atores: Administrador
 Pré-condição: Login administrativo
 
-##Fluxo Principal:
+## Fluxo Principal:
 
 Cadastrar, editar ou excluir
 Produtos
